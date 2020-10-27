@@ -1,0 +1,7 @@
+---
+applications:
+- name: win-test-app
+  random-route: true
+  memory: 1024m
+  stack: windows
+  buildpack: hwc_buildpack
